@@ -15,4 +15,5 @@
     'pages' => 'Pages',
     'galleries' => 'Galleries',
     'slider' => 'Slider',
+    'photos' => 'Photos',
 ];

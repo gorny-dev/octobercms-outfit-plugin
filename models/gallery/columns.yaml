@@ -1,0 +1,6 @@
+columns:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        type: text
+        searchable: true
+        sortable: true

@@ -5,3 +5,6 @@
 1.0.3:
     - 'Created table codeclutch_outfit_pages'
     - builder_table_create_codeclutch_outfit_pages.php
+1.0.4:
+    - 'Created table codeclutch_outfit_galleries'
+    - builder_table_create_codeclutch_outfit_galleries.php

@@ -1,0 +1,18 @@
+fields:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        span: auto
+        type: text
+    slug:
+        label: 'codeclutch.outfit::lang.post.slug'
+        span: auto
+        type: text
+    photos:
+        label: 'codeclutch.outfit::lang.photos'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

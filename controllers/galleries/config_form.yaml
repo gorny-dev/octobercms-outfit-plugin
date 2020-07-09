@@ -1,0 +1,10 @@
+name: Galleries
+form: $/codeclutch/outfit/models/gallery/fields.yaml
+modelClass: Codeclutch\Outfit\Models\Gallery
+defaultRedirect: codeclutch/outfit/galleries
+create:
+    redirect: 'codeclutch/outfit/galleries/update/:id'
+    redirectClose: codeclutch/outfit/galleries
+update:
+    redirect: codeclutch/outfit/galleries
+    redirectClose: codeclutch/outfit/galleries
