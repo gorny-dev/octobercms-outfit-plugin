@@ -1,0 +1,4 @@
+1.0.1: 'First version of Outfit'
+1.0.2:
+    - 'Created table codeclutch_outfit_news'
+    - builder_table_create_codeclutch_outfit_news.php

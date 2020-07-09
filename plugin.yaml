@@ -1,0 +1,28 @@
+plugin:
+    name: Outfit
+    description: 'Create News, Pages, Slider, Gallery'
+    author: infopasja
+    icon: oc-icon-home
+    homepage: ''
+navigation:
+    outfit:
+        label: 'codeclutch.outfit::lang.outfit.name'
+        url: codeclutch/outfit/posts
+        icon: icon-server
+        sideMenu:
+            pages:
+                label: 'codeclutch.outfit::lang.pages'
+                url: /
+                icon: icon-sitemap
+            posts:
+                label: 'codeclutch.outfit::lang.posts'
+                url: codeclutch/outfit/posts
+                icon: icon-newspaper-o
+            sliders:
+                label: 'codeclutch.outfit::lang.slider'
+                url: /
+                icon: icon-arrows
+            galleries:
+                label: 'codeclutch.outfit::lang.galleries'
+                url: /
+                icon: icon-image
