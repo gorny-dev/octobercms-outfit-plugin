@@ -1,0 +1,9 @@
+<ul>
+    {% for staticPage in page.getPagesList %}
+    <li>
+        <a href="{{ 'page'|page({'slug': staticPage.slug}) }}">
+            {{staticPage.title}}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
