@@ -1,0 +1,4 @@
+title: Posts
+modelClass: Codeclutch\Outfit\Models\Post
+toolbar:
+    buttons: reorder_toolbar

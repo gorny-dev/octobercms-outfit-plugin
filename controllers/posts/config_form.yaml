@@ -1,0 +1,10 @@
+name: Posts
+form: $/codeclutch/outfit/models/post/fields.yaml
+modelClass: Codeclutch\Outfit\Models\Post
+defaultRedirect: codeclutch/outfit/posts
+create:
+    redirect: 'codeclutch/outfit/posts/update/:id'
+    redirectClose: codeclutch/outfit/posts
+update:
+    redirect: codeclutch/outfit/posts
+    redirectClose: codeclutch/outfit/posts

@@ -1,0 +1,37 @@
+fields:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        span: left
+        type: text
+    slug:
+        label: 'codeclutch.outfit::lang.post.slug'
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    created_at:
+        label: 'codeclutch.outfit::lang.post.created_at'
+        mode: datetime
+        span: auto
+        disabled: 1
+        type: datepicker
+    updated_at:
+        label: 'codeclutch.outfit::lang.post.update_at'
+        mode: datetime
+        span: auto
+        type: datepicker
+    short_description:
+        label: 'codeclutch.outfit::lang.post.short_description'
+        size: small
+        span: full
+        type: textarea
+    content:
+        label: 'codeclutch.outfit::lang.post.content'
+        size: giant
+        span: full
+        type: richeditor
+    author:
+        label: 'codeclutch.outfit::lang.post.author'
+        span: right
+        type: text

@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        type: text
+        searchable: true
+        sortable: true
+    updated_at:
+        label: 'codeclutch.outfit::lang.post.update_at'
+        type: datetime
+        sortable: true
+    short_description:
+        label: 'codeclutch.outfit::lang.post.short_description'
+        type: text
+        sortable: false
