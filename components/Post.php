@@ -2,6 +2,7 @@
 namespace Codeclutch\Outfit\Components;
 
 use Cms\Classes\ComponentBase;
+use Lang;
 use Codeclutch\Outfit\Models\Post as PostModel;
 
 class Post extends ComponentBase
