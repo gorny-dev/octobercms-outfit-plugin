@@ -1,0 +1,11 @@
+<h1>{{gallery.title}}</h1>
+<ul>
+    {% for photo in gallery.photos %}
+    <li>
+        <div class="image">
+            <img src="{{photo.thumb(image_width,image_height)}}" alt="{{photo.file_name}}">
+        </div>
+
+    </li>
+    {% endfor %}
+</ul>

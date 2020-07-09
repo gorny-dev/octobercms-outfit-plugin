@@ -29,7 +29,8 @@ class Plugin extends PluginBase
         return [
             'Codeclutch\Outfit\Components\News' => 'news',
             'Codeclutch\Outfit\Components\Post' => 'post',
-            'Codeclutch\Outfit\Components\Page' => 'page'
+            'Codeclutch\Outfit\Components\Page' => 'page',
+            'Codeclutch\Outfit\Components\Gallery' => 'gallery'
         ];
     }
 }
