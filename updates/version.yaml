@@ -2,3 +2,6 @@
 1.0.2:
     - 'Created table codeclutch_outfit_news'
     - builder_table_create_codeclutch_outfit_news.php
+1.0.3:
+    - 'Created table codeclutch_outfit_pages'
+    - builder_table_create_codeclutch_outfit_pages.php

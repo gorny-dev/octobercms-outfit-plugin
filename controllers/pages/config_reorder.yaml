@@ -1,0 +1,4 @@
+title: Pages
+modelClass: Codeclutch\Outfit\Models\Page
+toolbar:
+    buttons: reorder_toolbar

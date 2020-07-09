@@ -12,7 +12,7 @@ navigation:
         sideMenu:
             pages:
                 label: 'codeclutch.outfit::lang.pages'
-                url: /
+                url: codeclutch/outfit/pages
                 icon: icon-sitemap
             posts:
                 label: 'codeclutch.outfit::lang.posts'

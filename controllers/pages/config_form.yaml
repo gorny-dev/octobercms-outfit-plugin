@@ -1,0 +1,10 @@
+name: Pages
+form: $/codeclutch/outfit/models/page/fields.yaml
+modelClass: Codeclutch\Outfit\Models\Page
+defaultRedirect: codeclutch/outfit/pages
+create:
+    redirect: 'codeclutch/outfit/pages/update/:id'
+    redirectClose: codeclutch/outfit/pages
+update:
+    redirect: codeclutch/outfit/pages
+    redirectClose: codeclutch/outfit/pages

@@ -1,0 +1,17 @@
+fields:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        span: auto
+        type: text
+    slug:
+        label: 'codeclutch.outfit::lang.post.slug'
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    content:
+        label: 'codeclutch.outfit::lang.post.content'
+        size: giant
+        span: full
+        type: richeditor
