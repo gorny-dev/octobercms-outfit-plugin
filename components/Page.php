@@ -23,7 +23,35 @@ class Page extends ComponentBase
 
     public function onRun()
     {
-        $slug = $this->param('slug');
+        if ($this->param('slug')) {
+            $slug = $this->param('slug');
+        } else {
+            $slug = $this->property('slug');
+        }
         $this->page['page'] = PageModel::where('slug', $slug)->first();
+    }
+
+    public function defineProperties()
+    {
+        return [
+            'slug' => [
+                'title' => 'Slug',
+                'default' => 'auto',
+                'type' => 'dropdown',
+            ]
+        ];
+    }
+
+    public function getSlugOptions()
+    {
+        $pages = PageModel::all();
+        if ($pages) {
+            foreach ($pages as $key => $page) {
+                $arr[$page->id] = $page->title;
+            }
+            return $arr;
+        } else {
+            return [];
+        }
     }
 }
