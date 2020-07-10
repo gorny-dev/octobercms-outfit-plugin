@@ -1,0 +1,9 @@
+<div>
+    {% for item in slider.items %}
+    <div>
+        <img src="{{item.photo|media}}" alt="item.photo.file_name">
+        <p>{{item.title}}</p>
+        <p>{{item.description}}</p>
+    </div>
+    {% endfor %}
+</div>

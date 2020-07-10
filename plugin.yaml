@@ -20,7 +20,7 @@ navigation:
                 icon: icon-newspaper-o
             sliders:
                 label: 'codeclutch.outfit::lang.slider'
-                url: /
+                url: codeclutch/outfit/sliders
                 icon: icon-arrows
             galleries:
                 label: 'codeclutch.outfit::lang.galleries'

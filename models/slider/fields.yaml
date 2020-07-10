@@ -1,0 +1,25 @@
+fields:
+    title:
+        label: 'codeclutch.outfit::lang.post.title'
+        span: full
+        type: text
+    items:
+        label: 'codeclutch.outfit::lang.items'
+        prompt: 'Add new item'
+        span: full
+        type: repeater
+        form:
+            fields:
+                photo:
+                    label: 'codeclutch.outfit::lang.photo'
+                    mode: file
+                    span: full
+                    type: mediafinder
+                title:
+                    label: 'codeclutch.outfit::lang.post.title'
+                    span: auto
+                    type: text
+                description:
+                    label: 'codeclutch.outfit::lang.description'
+                    span: auto
+                    type: text

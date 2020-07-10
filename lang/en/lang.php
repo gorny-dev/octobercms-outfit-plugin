@@ -1,4 +1,11 @@
 <?php return [
+    'plugin' => [
+      'slider' => [
+          'name' => 'Slider',
+          'description' => 'Displays slider',
+          'id' => 'Id'
+      ]
+    ],
     'post' => [
         'title' => 'Title',
         'slug' => 'Slug',
@@ -16,4 +23,7 @@
     'galleries' => 'Galleries',
     'slider' => 'Slider',
     'photos' => 'Photos',
+    'items' => 'Items',
+    'photo' => 'Photo',
+    'description' => 'Description',
 ];

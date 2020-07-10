@@ -1,0 +1,10 @@
+name: Sliders
+form: $/codeclutch/outfit/models/slider/fields.yaml
+modelClass: Codeclutch\Outfit\Models\Slider
+defaultRedirect: codeclutch/outfit/sliders
+create:
+    redirect: 'codeclutch/outfit/sliders/update/:id'
+    redirectClose: codeclutch/outfit/sliders
+update:
+    redirect: codeclutch/outfit/sliders
+    redirectClose: codeclutch/outfit/sliders

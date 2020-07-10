@@ -31,16 +31,16 @@ class Gallery extends ComponentBase
     {
         return [
             'image_height' => [
-                'title'             => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.name'),
-                'description'       => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.description'),
-                'default'           => 'auto',
-                'type'              => 'string',
+                'title' => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.name'),
+                'description' => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.description'),
+                'default' => 'auto',
+                'type' => 'string',
             ],
             'image_width' => [
-                'title'             => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.name'),
-                'description'       => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.description'),
-                'default'           => 'auto',
-                'type'              => 'string',
+                'title' => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.name'),
+                'description' => Lang::get('codeclutch.base::lang.plugin.components.gallery.height.description'),
+                'default' => 'auto',
+                'type' => 'string',
             ]
         ];
     }

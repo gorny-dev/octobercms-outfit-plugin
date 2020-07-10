@@ -26,11 +26,13 @@ class Plugin extends PluginBase
 
     public function registerComponents()
     {
+        $path = 'Codeclutch\Outfit\Components';
         return [
-            'Codeclutch\Outfit\Components\News' => 'news',
-            'Codeclutch\Outfit\Components\Post' => 'post',
-            'Codeclutch\Outfit\Components\Page' => 'page',
-            'Codeclutch\Outfit\Components\Gallery' => 'gallery'
+            $path.'\News' => 'news',
+            $path.'\Post' => 'post',
+            $path.'\Page' => 'page',
+            $path.'\Gallery' => 'gallery',
+            $path.'\Slider' => 'slider'
         ];
     }
 }
